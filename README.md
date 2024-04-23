@@ -7,13 +7,13 @@ The LCCC (Liquid Chromatography at the Critical Condition, or LC3x for short) we
 1. Node.js.: Download [here](https://nodejs.org/en/download) (LTS recommended) - Comes with NPM (Node Package Manager) during instllation process.
    * Type `node -v` (check if Node is installed).
    * Type `npm -v` (check if Node Package Manager is installed).
-3. npm: Type ```npm install -g @angular/cli@15.1.6``` OR ```npm install -g @angular/cli``` inside the terminal to install Angular globally (-g), specicially version 15.1.6.
+3. NPM: Type ```npm install -g @angular/cli@15.1.6``` OR ```npm install -g @angular/cli``` inside the terminal to install Angular globally (-g), specicially version 15.1.6.
 4. Firebase JavaScript SDK & AngularFire library: Type ```npm install firebase @angular/fire``` inside the terminal to install the necessary packages and library for Angular/Firebase.
 5. Clone Repository: Clone the source code by either directly downloading the files, or via Git CLI ```git clone git@github.com:Team-Chem/LCCC.git```.
 6. Firebase: Requirements firestore folder in this path `node_modules/@angular/fire/compat/firestore` with this folder [here](https://github.com/Team-Chem/LCCC/tree/main/Firestore%20Dependencies%20Download).
-7. * Download the firestore.zip file and this will contain the configured dependencies for the application. You will need to replace the files in the `firestore` folder with these.
+   * Download the firestore.zip file and this will contain the configured dependencies for the application. You will need to replace the files in the `firestore` folder with these.
 8. Change directory: Open your termianl and CD into this directroy `LCCC-main`.
-9. * Once within this directory, run this command to install necessary packages `npm install`.
+   * Once within this directory, run this command to install necessary packages `npm install`.
 11. Start Server: In your terminal, type ```ng serve``` which will start the application, then you can visit the application in the browser at this URL `http://localhost:4200/`.
 
 # Troubleshooting
