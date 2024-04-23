@@ -4,6 +4,7 @@ The LCCC (Liquid Chromatography at the Critical Condition, or LC3x for short) we
 # Getting Started
 
 ## Prerequisites
+Link to the Angular setup guide if needed [Angular setup local guide](https://angular.io/guide/setup-local).
 1. Node.js.: Download [here](https://nodejs.org/en/download) (LTS recommended) - Comes with NPM (Node Package Manager) during instllation process.
    * Type `node -v` (check if Node is installed).
    * Type `npm -v` (check if Node Package Manager is installed).
