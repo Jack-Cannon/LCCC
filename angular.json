@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "lccc-project:build:production"
+              "buildTarget": "lccc-project:build:production"
             },
             "development": {
-              "browserTarget": "lccc-project:build:development"
+              "buildTarget": "lccc-project:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "lccc-project:build"
+            "buildTarget": "lccc-project:build"
           }
         },
         "test": {
